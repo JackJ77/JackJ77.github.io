@@ -1,0 +1,119 @@
+$overlay: rgba(77,77,77,0.7);
+
+h3:after {
+    display: block;
+    height: 3px;
+    background-color: #aaa;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.grey-section {
+  background-color: #777;
+  color: #fff;
+
+  h3:after {
+    background-color: #fff;
+  }
+}
+
+.navbar {
+  letter-spacing: 1px;
+  font-style: lato;
+  opacity: 0.95;
+
+  .navbar-brand {
+    letter-spacing: 2px;
+    font-size: 140%;
+  }
+}
+
+.fa {
+  color: #fff;
+  font-size: 30px;
+}
+
+#home {
+  background-image: url('../img/background.jpeg');
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .overlay {
+    background-color: $overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 230px;
+  }
+
+  .me {
+    max-height: 300px;
+    width: auto;
+  }
+}
+
+#skills {
+  .logo {
+    max-height: 100px;
+    width: auto;
+  }
+}
+
+#portfolio {
+  img {
+    border-radius: 5px;
+    border: 1px solid #888;
+  }
+
+  .box {
+    position: relative;
+    width: 70%;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color: #777;
+  }
+
+  .box:hover .overlay {
+    opacity: 0.7;
+  }
+}
+
+footer {
+    .icons {
+      .fa {
+        font-size: 20px;
+      }
+    }
+}
