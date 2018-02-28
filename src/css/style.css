@@ -43,8 +43,11 @@ h3:after {
     width: auto; }
 
 #skills .logo {
-  max-height: 100px;
-  width: auto; }
+  max-width: 100px;
+  height: auto; }
+
+#skills h4 {
+  font-size: 18px; }
 
 #portfolio img {
   border-radius: 5px;
@@ -52,7 +55,8 @@ h3:after {
 
 #portfolio .box {
   position: relative;
-  width: 70%; }
+  width: 200px;
+  height: 200px; }
 
 #portfolio .text {
   color: white;
@@ -65,8 +69,8 @@ h3:after {
 
 #portfolio .image {
   display: block;
-  width: 100%;
-  height: auto; }
+  width: 200px;
+  height: 200px; }
 
 #portfolio .overlay {
   position: absolute;
