@@ -58,6 +58,8 @@ h3:after {
 }
 
 #skills {
+  padding: 20px;
+
   .logo {
     max-height: 70px;
     width: auto;
@@ -69,6 +71,8 @@ h3:after {
 }
 
 #portfolio {
+  padding: 20px;
+
   img {
     border-radius: 5px;
     border: 1px solid #888;
@@ -115,7 +119,8 @@ h3:after {
   }
 }
 
-footer {
+#footer {
+  padding: 20px;
     .icons {
       .fa {
         font-size: 20px;
