@@ -43,7 +43,7 @@ h3:after {
     width: auto; }
 
 #skills {
-  padding: 20px; }
+  padding: 30px; }
   #skills .logo {
     max-height: 70px;
     width: auto; }
@@ -51,7 +51,7 @@ h3:after {
     font-size: 18px; }
 
 #portfolio {
-  padding: 20px; }
+  padding: 30px 0; }
   #portfolio img {
     border-radius: 5px;
     border: 1px solid #888; }
@@ -87,6 +87,6 @@ h3:after {
     opacity: 0.7; }
 
 #footer {
-  padding: 20px; }
+  padding: 30px 0; }
   #footer .icons .fa {
     font-size: 20px; }
